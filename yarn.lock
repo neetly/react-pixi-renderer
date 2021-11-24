@@ -2131,16 +2131,30 @@ __metadata:
     "@buncho/builder": ^2.6.0
     "@buncho/eslint-config": ^3.1.0
     "@buncho/tsconfig": ^1.0.0
+    "@pixi/constants": ^6.2.0
+    "@pixi/display": ^6.2.0
+    "@pixi/math": ^6.2.0
+    "@pixi/settings": ^6.2.0
+    "@pixi/utils": ^6.2.0
     "@types/react": ^17.0.36
     "@types/react-dom": ^17.0.11
+    "@types/react-reconciler": ^0.26.4
+    "@types/scheduler": ^0.16.2
     "@typescript-eslint/eslint-plugin": ^5.4.0
     "@typescript-eslint/parser": ^5.4.0
     eslint: ^8.3.0
     prettier: ^2.4.1
     react: ^17.0.2
     react-dom: ^17.0.2
+    react-reconciler: ^0.26.2
+    scheduler: ^0.20.2
     typescript: ^4.5.2
   peerDependencies:
+    "@pixi/constants": "*"
+    "@pixi/display": "*"
+    "@pixi/math": "*"
+    "@pixi/settings": "*"
+    "@pixi/utils": "*"
     "@types/react": "*"
     "@types/react-dom": "*"
     react: "*"
@@ -2211,6 +2225,55 @@ __metadata:
     mkdirp: ^1.0.4
     rimraf: ^3.0.2
   checksum: c96381d4a37448ea280951e46233f7e541058cf57a57d4094dd4bdcaae43fa5872b5f2eb6bfb004591a68e29c5877abe3cdc210cb3588cbf20ab2877f31a7de7
+  languageName: node
+  linkType: hard
+
+"@pixi/constants@npm:^6.2.0":
+  version: 6.2.0
+  resolution: "@pixi/constants@npm:6.2.0"
+  checksum: 7c812c18f5032353546a5bf8f70bdf0a4a0d90618cfe6e5c69e70a1203b83e9d6c892d336c4a63576c1ae0aa6f0ab3b9a641fc4cf87bdef47b15edc2ba86013c
+  languageName: node
+  linkType: hard
+
+"@pixi/display@npm:^6.2.0":
+  version: 6.2.0
+  resolution: "@pixi/display@npm:6.2.0"
+  peerDependencies:
+    "@pixi/math": 6.2.0
+    "@pixi/settings": 6.2.0
+    "@pixi/utils": 6.2.0
+  checksum: 3af062cdfd34c3bcaf4c1d06ff794267cc678baf1ee1b123bbe3a2fdca835b4010fb0d47317169707c980b4c7986119921a30e3ffb02eba17114d0166dcc0c6d
+  languageName: node
+  linkType: hard
+
+"@pixi/math@npm:^6.2.0":
+  version: 6.2.0
+  resolution: "@pixi/math@npm:6.2.0"
+  checksum: f1e17d90565bc912fca51b748aea7b7957d09ec788635f03c0320e62eca11e9cbabe7a117cc88b428468b33c4a110c9ba17c15130b8cb6b3a52d1545a8a52589
+  languageName: node
+  linkType: hard
+
+"@pixi/settings@npm:^6.2.0":
+  version: 6.2.0
+  resolution: "@pixi/settings@npm:6.2.0"
+  dependencies:
+    ismobilejs: ^1.1.0
+  checksum: 2946558128c8218f33267ad11e8bc199f22e7af56aca86ac49d2e7acba0489ad2131fce3a8f4a626ea53b845fc2ba86495c62627e0e64ffa56bfe79f010f0005
+  languageName: node
+  linkType: hard
+
+"@pixi/utils@npm:^6.2.0":
+  version: 6.2.0
+  resolution: "@pixi/utils@npm:6.2.0"
+  dependencies:
+    "@types/earcut": ^2.1.0
+    earcut: ^2.2.2
+    eventemitter3: ^3.1.0
+    url: ^0.11.0
+  peerDependencies:
+    "@pixi/constants": 6.2.0
+    "@pixi/settings": 6.2.0
+  checksum: 832f3c6d9251812a15bea6c8fd65cea04d4659117417980d1944ef850549209ace1562280612ff0558d8ae9095d83fa07cdc5ca34436754c829e0df27bd81539
   languageName: node
   linkType: hard
 
@@ -3769,6 +3832,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/earcut@npm:^2.1.0":
+  version: 2.1.1
+  resolution: "@types/earcut@npm:2.1.1"
+  checksum: 7845dab97ba2bf379caeb4fb91bb732e6710b0ce018a8e357f023cb96ac2fa5c64352461e93ecac2504966dcf6b0b882d117c2258cf15a679bd0063b3cee0e14
+  languageName: node
+  linkType: hard
+
 "@types/eslint-scope@npm:^3.7.0":
   version: 3.7.1
   resolution: "@types/eslint-scope@npm:3.7.1"
@@ -4101,6 +4171,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-reconciler@npm:^0.26.4":
+  version: 0.26.4
+  resolution: "@types/react-reconciler@npm:0.26.4"
+  dependencies:
+    "@types/react": "*"
+  checksum: 5ebb72f8aa70824b69030ae7f4c21828c0fb5c1cc5873a606eb7f7ac50cf5dd52502edcd32bf1eead2f149d076ee1798c86f1ffaebfa8b31d523343368d351e0
+  languageName: node
+  linkType: hard
+
 "@types/react-syntax-highlighter@npm:11.0.5":
   version: 11.0.5
   resolution: "@types/react-syntax-highlighter@npm:11.0.5"
@@ -4137,7 +4216,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/scheduler@npm:*":
+"@types/scheduler@npm:*, @types/scheduler@npm:^0.16.2":
   version: 0.16.2
   resolution: "@types/scheduler@npm:0.16.2"
   checksum: b6b4dcfeae6deba2e06a70941860fb1435730576d3689225a421280b7742318d1548b3d22c1f66ab68e414f346a9542f29240bc955b6332c5b11e561077583bc
@@ -7709,6 +7788,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"earcut@npm:^2.2.2":
+  version: 2.2.3
+  resolution: "earcut@npm:2.2.3"
+  checksum: 4e3bab80366c49e0332a0bb061649a3b9354dcbfa636155c7eee250be0670d7139d53f2aebbcf90788507c71b76ec1713c20e36527f202b9abb79c9e5858ec35
+  languageName: node
+  linkType: hard
+
 "ee-first@npm:1.1.1":
   version: 1.1.1
   resolution: "ee-first@npm:1.1.1"
@@ -8315,6 +8401,13 @@ __metadata:
   version: 1.8.1
   resolution: "etag@npm:1.8.1"
   checksum: 571aeb3dbe0f2bbd4e4fadbdb44f325fc75335cd5f6f6b6a091e6a06a9f25ed5392f0863c5442acb0646787446e816f13cbfc6edce5b07658541dff573cab1ff
+  languageName: node
+  linkType: hard
+
+"eventemitter3@npm:^3.1.0":
+  version: 3.1.2
+  resolution: "eventemitter3@npm:3.1.2"
+  checksum: 81e4e82b8418f5cfd986d2b4a2fa5397ac4eb8134e09bcb47005545e22fdf8e9e61d5c053d34651112245aae411bdfe6d0ad5511da0400743fef5fc38bfcfbe3
   languageName: node
   linkType: hard
 
@@ -10663,6 +10756,13 @@ __metadata:
   version: 2.0.0
   resolution: "isexe@npm:2.0.0"
   checksum: 26bf6c5480dda5161c820c5b5c751ae1e766c587b1f951ea3fcfc973bafb7831ae5b54a31a69bd670220e42e99ec154475025a468eae58ea262f813fdc8d1c62
+  languageName: node
+  linkType: hard
+
+"ismobilejs@npm:^1.1.0":
+  version: 1.1.1
+  resolution: "ismobilejs@npm:1.1.1"
+  checksum: 937479c4ae13306f41391e0f57611b0835bc57325750b446cb12ed844d697407f66f050ebf7446538cc3aae9575df6382243224be3032c1574b61e2f955d8417
   languageName: node
   linkType: hard
 
@@ -13962,6 +14062,19 @@ __metadata:
     "@popperjs/core": ^2.0.0
     react: ^16.8.0 || ^17
   checksum: 915fcf08e1da4fd48a200074fcdd936f601ee2173f1e730cfed8a54fd47716aa8bf9cce2392463e3bcbe64a096d0baf463809ed2874b94d3a9d430ae6d817b5d
+  languageName: node
+  linkType: hard
+
+"react-reconciler@npm:^0.26.2":
+  version: 0.26.2
+  resolution: "react-reconciler@npm:0.26.2"
+  dependencies:
+    loose-envify: ^1.1.0
+    object-assign: ^4.1.1
+    scheduler: ^0.20.2
+  peerDependencies:
+    react: ^17.0.2
+  checksum: 2ebceace56f547f51eaf142becefef9cca980eae4f42d90ee5a966f54a375f5082d78b71b00c40bbd9bca69e0e0f698c7d4e81cc7373437caa19831fddc1d01b
   languageName: node
   linkType: hard
 

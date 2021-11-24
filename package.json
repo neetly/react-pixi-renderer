@@ -18,7 +18,18 @@
     "lint:fix": "eslint --max-warnings 0 --fix . && prettier --write .",
     "prepack": "run clean && run build"
   },
+  "dependencies": {
+    "@types/react-reconciler": "^0.26.4",
+    "@types/scheduler": "^0.16.2",
+    "react-reconciler": "^0.26.2",
+    "scheduler": "^0.20.2"
+  },
   "peerDependencies": {
+    "@pixi/constants": "*",
+    "@pixi/display": "*",
+    "@pixi/math": "*",
+    "@pixi/settings": "*",
+    "@pixi/utils": "*",
     "@types/react": "*",
     "@types/react-dom": "*",
     "react": "*",
@@ -36,6 +47,11 @@
     "@buncho/builder": "^2.6.0",
     "@buncho/eslint-config": "^3.1.0",
     "@buncho/tsconfig": "^1.0.0",
+    "@pixi/constants": "^6.2.0",
+    "@pixi/display": "^6.2.0",
+    "@pixi/math": "^6.2.0",
+    "@pixi/settings": "^6.2.0",
+    "@pixi/utils": "^6.2.0",
     "@types/react": "^17.0.36",
     "@types/react-dom": "^17.0.11",
     "@typescript-eslint/eslint-plugin": "^5.4.0",

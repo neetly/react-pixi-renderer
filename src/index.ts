@@ -1,2 +1,4 @@
 export * from "./components/Primitive";
-export * from "./ReactPixiReconciler";
+export * from "./createLegacyRoot";
+export * from "./createRoot";
+export * from "./ReactPixiRoot";

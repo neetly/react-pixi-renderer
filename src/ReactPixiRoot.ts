@@ -1,16 +1,16 @@
 import type { ReactNode } from "react";
 
-import { ReactPixiReconciler } from "./ReactPixiReconciler";
+import { ReactPixiRenderer } from "./ReactPixiRenderer";
 
 class ReactPixiRoot {
   constructor(private readonly container: unknown) {}
 
   render(children: ReactNode) {
-    ReactPixiReconciler.updateContainer(children, this.container, null, null);
+    ReactPixiRenderer.updateContainer(children, this.container, null, null);
   }
 
   unmount() {
-    ReactPixiReconciler.updateContainer(null, this.container, null, null);
+    ReactPixiRenderer.updateContainer(null, this.container, null, null);
   }
 }
 

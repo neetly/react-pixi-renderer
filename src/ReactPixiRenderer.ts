@@ -2,6 +2,6 @@ import Reconciler from "react-reconciler";
 
 import { ReactPixiHostConfig } from "./ReactPixiHostConfig";
 
-const ReactPixiReconciler = Reconciler(ReactPixiHostConfig);
+const ReactPixiRenderer = Reconciler(ReactPixiHostConfig);
 
-export { ReactPixiReconciler };
+export { ReactPixiRenderer };

@@ -1,7 +1,7 @@
 import type { Container as PixiContainer } from "@pixi/display";
 
 import { ReactPixiInstance } from "./ReactPixiInstance";
-import { ReactPixiReconciler } from "./ReactPixiReconciler";
+import { ReactPixiRenderer } from "./ReactPixiRenderer";
 import { ReactPixiRoot } from "./ReactPixiRoot";
 import { ReactRootTag } from "./ReactRootTag";
 
@@ -10,7 +10,7 @@ const createLegacyRoot = (container: PixiContainer) => {
   instance.instance = container;
 
   return new ReactPixiRoot(
-    ReactPixiReconciler.createContainer(
+    ReactPixiRenderer.createContainer(
       instance,
       ReactRootTag.LegacyRoot,
       false,

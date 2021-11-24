@@ -1,3 +1,3 @@
-# React Pixi Reconciler
+# React Pixi Renderer
 
-![CI](https://github.com/neetly/react-pixi-reconciler/workflows/CI/badge.svg)
+![CI](https://github.com/neetly/react-pixi-renderer/workflows/CI/badge.svg)

@@ -2142,7 +2142,7 @@ __metadata:
     "@buncho/builder": ^3.2.2
     "@buncho/eslint-config": ^4.0.0
     "@buncho/tsconfig": ^1.0.0
-    "@pixi/constants": ^6.2.0
+    "@pixi/constants": ^6.2.1
     "@pixi/display": ^6.2.0
     "@pixi/math": ^6.2.0
     "@pixi/settings": ^6.2.0
@@ -2239,10 +2239,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pixi/constants@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "@pixi/constants@npm:6.2.0"
-  checksum: 7c812c18f5032353546a5bf8f70bdf0a4a0d90618cfe6e5c69e70a1203b83e9d6c892d336c4a63576c1ae0aa6f0ab3b9a641fc4cf87bdef47b15edc2ba86013c
+"@pixi/constants@npm:^6.2.1":
+  version: 6.2.1
+  resolution: "@pixi/constants@npm:6.2.1"
+  checksum: 16ce671884932afec41258891f301b9b725a4ae6285a39940b83ebd026a0dd077c78962b7f75eb6afba14a38de2420b0cfeaeae7986bbea4991506a4a83076b7
   languageName: node
   linkType: hard
 

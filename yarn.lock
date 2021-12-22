@@ -2143,7 +2143,7 @@ __metadata:
     "@buncho/eslint-config": ^4.0.0
     "@buncho/tsconfig": ^1.0.0
     "@pixi/constants": ^6.2.1
-    "@pixi/display": ^6.2.0
+    "@pixi/display": ^6.2.1
     "@pixi/math": ^6.2.1
     "@pixi/settings": ^6.2.1
     "@pixi/utils": ^6.2.1
@@ -2246,14 +2246,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pixi/display@npm:^6.2.0":
-  version: 6.2.0
-  resolution: "@pixi/display@npm:6.2.0"
+"@pixi/display@npm:^6.2.1":
+  version: 6.2.1
+  resolution: "@pixi/display@npm:6.2.1"
   peerDependencies:
-    "@pixi/math": 6.2.0
-    "@pixi/settings": 6.2.0
-    "@pixi/utils": 6.2.0
-  checksum: 3af062cdfd34c3bcaf4c1d06ff794267cc678baf1ee1b123bbe3a2fdca835b4010fb0d47317169707c980b4c7986119921a30e3ffb02eba17114d0166dcc0c6d
+    "@pixi/math": 6.2.1
+    "@pixi/settings": 6.2.1
+    "@pixi/utils": 6.2.1
+  checksum: b72d4f16fd4c27e03d34c5cd8490cbd2c5d507584cef3abbab329fc1575ed5bcc53e104fb063c35fb6e85a6f8e16e1c114f1ff599ad43b7d1e4797fd644639fe
   languageName: node
   linkType: hard
 

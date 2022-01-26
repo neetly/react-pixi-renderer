@@ -50,7 +50,7 @@
     "@pixi/constants": "^6.2.1",
     "@pixi/display": "^6.2.1",
     "@pixi/math": "^6.2.1",
-    "@pixi/settings": "^6.2.1",
+    "@pixi/settings": "^6.2.2",
     "@pixi/utils": "^6.2.1",
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",

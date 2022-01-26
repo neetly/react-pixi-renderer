@@ -2145,7 +2145,7 @@ __metadata:
     "@pixi/constants": ^6.2.1
     "@pixi/display": ^6.2.1
     "@pixi/math": ^6.2.1
-    "@pixi/settings": ^6.2.1
+    "@pixi/settings": ^6.2.2
     "@pixi/utils": ^6.2.1
     "@types/react": ^17.0.38
     "@types/react-dom": ^17.0.11
@@ -2264,12 +2264,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pixi/settings@npm:^6.2.1":
-  version: 6.2.1
-  resolution: "@pixi/settings@npm:6.2.1"
+"@pixi/settings@npm:^6.2.2":
+  version: 6.2.2
+  resolution: "@pixi/settings@npm:6.2.2"
   dependencies:
     ismobilejs: ^1.1.0
-  checksum: f4db5bd74fca1f6c78153d4e86ae2a7961e929086543190cc8d923abfd35fb973eac61c3d722c2c753d30028a0d6c49a96fccd74f510636aa5a05afa3fda107d
+  checksum: 0f03985a83222b0cf5eedfcb1275b2a0965edbb13ac9ed83e4637739e3e835567f2f8c5047c23b76c4b383e2e45e395ab43062a4a59757bd6b6398392caccf1a
   languageName: node
   linkType: hard
 

@@ -2146,7 +2146,7 @@ __metadata:
     "@pixi/display": ^6.2.1
     "@pixi/math": ^6.2.1
     "@pixi/settings": ^6.2.1
-    "@pixi/utils": ^6.2.1
+    "@pixi/utils": ^6.2.2
     "@types/react": ^17.0.38
     "@types/react-dom": ^17.0.11
     "@types/react-reconciler": ^0.26.4
@@ -2273,18 +2273,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pixi/utils@npm:^6.2.1":
-  version: 6.2.1
-  resolution: "@pixi/utils@npm:6.2.1"
+"@pixi/utils@npm:^6.2.2":
+  version: 6.2.2
+  resolution: "@pixi/utils@npm:6.2.2"
   dependencies:
     "@types/earcut": ^2.1.0
     earcut: ^2.2.2
     eventemitter3: ^3.1.0
     url: ^0.11.0
   peerDependencies:
-    "@pixi/constants": 6.2.1
-    "@pixi/settings": 6.2.1
-  checksum: e324cafe80cd2ec3bcf0763cd1e6a7193b15384819af9031d7425a4d6ff8520acb143fc63f5bbc12fe0af17de458fc2eb89d3b2ddd4de5657155e35e164e0108
+    "@pixi/constants": 6.2.2
+    "@pixi/settings": 6.2.2
+  checksum: 35715cbbdb21df5af38a430d67295b8d1fdf58afbb430ac2d185d29d0c88cf3f37c4fb7a93362cc53ae55426c273b0a1d47bf9df448961383c98c38dff3a57e8
   languageName: node
   linkType: hard
 

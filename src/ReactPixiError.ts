@@ -1,5 +1,5 @@
 class ReactPixiError extends Error {
-  readonly override name = "ReactPixiError";
+  override readonly name = "ReactPixiError";
 }
 
 export { ReactPixiError };

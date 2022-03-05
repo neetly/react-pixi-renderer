@@ -46,7 +46,7 @@
   "devDependencies": {
     "@buncho/builder": "^4.0.0",
     "@buncho/eslint-config": "^4.0.0",
-    "@buncho/tsconfig": "^1.0.0",
+    "@buncho/tsconfig": "^2.0.0",
     "@pixi/constants": "^6.2.2",
     "@pixi/display": "^6.2.2",
     "@pixi/math": "^6.2.2",

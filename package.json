@@ -52,7 +52,7 @@
     "@pixi/math": "^6.2.2",
     "@pixi/settings": "^6.2.2",
     "@pixi/utils": "^6.2.2",
-    "@types/react": "^17.0.39",
+    "@types/react": "^17.0.40",
     "@types/react-dom": "^17.0.13",
     "@typescript-eslint/eslint-plugin": "^5.14.0",
     "@typescript-eslint/parser": "^5.14.0",

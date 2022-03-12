@@ -19,7 +19,10 @@ class ReactPixiInstance {
   parent: ReactPixiInstance | null = null;
   readonly children: ReactPixiInstance[] = [];
 
-  constructor(private readonly createInstance: () => PixiDisplayObject) {}
+  constructor(
+    private readonly createInstance: () => PixiDisplayObject,
+    private readonly autoDestroy: boolean,
+  ) {}
 
   private create() {
     invariant(this.instance === null);
@@ -64,13 +67,23 @@ class ReactPixiInstance {
       this.properties.clear();
     }
 
+    if (this.autoDestroy) {
+      this.instance.destroy();
+    }
+
     this.instance = null;
     this.defaultProperties.clear();
     this.eventListeners.clear();
   }
 
   private isReservedProperty(key: string) {
-    return key === "createInstance" || key === "children";
+    switch (key) {
+      case "createInstance":
+      case "autoDestroy":
+      case "children":
+        return true;
+    }
+    return false;
   }
 
   private isEventProperty(key: string): key is `on${string}` {

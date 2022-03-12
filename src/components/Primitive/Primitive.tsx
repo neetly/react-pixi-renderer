@@ -3,6 +3,7 @@ import type { ReactElement, ReactNode, Ref } from "react";
 
 type PrimitiveProps<Instance extends PixiDisplayObject> = {
   createInstance: () => Instance;
+  autoDestroy?: boolean;
   children?: ReactNode;
   [key: string]: unknown;
 };

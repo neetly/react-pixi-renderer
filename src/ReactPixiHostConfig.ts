@@ -48,7 +48,10 @@ const ReactPixiHostConfig: HostConfig<
 
   // #region Instances
   createInstance: (type, props) => {
-    const instance = new ReactPixiInstance(() => props.createInstance());
+    const instance = new ReactPixiInstance(
+      props.createInstance,
+      props.autoDestroy ?? true,
+    );
     for (const [key, value] of Object.entries(props)) {
       instance.setProperty(key, value);
     }

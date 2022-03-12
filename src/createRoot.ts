@@ -6,7 +6,7 @@ import { ReactPixiRoot } from "./ReactPixiRoot";
 import { ReactRootTag } from "./ReactRootTag";
 
 const createRoot = (container: PixiContainer) => {
-  const instance = new ReactPixiInstance(() => container);
+  const instance = new ReactPixiInstance(() => container, false);
   instance.instance = container;
 
   return new ReactPixiRoot(

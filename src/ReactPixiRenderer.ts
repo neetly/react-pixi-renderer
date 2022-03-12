@@ -6,7 +6,7 @@ const ReactPixiRenderer = Reconciler(ReactPixiHostConfig);
 
 ReactPixiRenderer.injectIntoDevTools({
   rendererPackageName: "@neetly/react-pixi-renderer",
-  version: "2.2.0",
+  version: "3.0.0",
   bundleType: process.env.NODE_ENV !== "production" ? 1 : 0,
 });
 

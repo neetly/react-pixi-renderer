@@ -1,5 +1,6 @@
 import type { DisplayObject as PixiDisplayObject } from "@pixi/display";
-import type { HostConfig } from "react-reconciler";
+import type { HostConfig, OpaqueHandle } from "react-reconciler";
+import { DefaultEventPriority } from "react-reconciler/constants";
 import { unstable_now as now } from "scheduler";
 
 import type { PrimitiveProps } from "./components/Primitive";
@@ -23,10 +24,19 @@ const ReactPixiHostConfig: HostConfig<
   /* TimeoutHandle */ number,
   /* NoTimeout */ number
 > & {
+  warnsIfNotActing?: boolean;
+
   supportsMicrotask?: boolean;
   scheduleMicrotask?: (fn: () => void) => void;
+
+  getCurrentEventPriority?: () => number;
+
+  beforeActiveInstanceBlur?: (internalHandle: OpaqueHandle) => void;
+  afterActiveInstanceBlur?: () => void;
+  detachDeletedInstance?: () => void;
 } = {
   isPrimaryRenderer: false,
+  warnsIfNotActing: true,
 
   supportsMutation: true,
   supportsPersistence: false,
@@ -44,9 +54,11 @@ const ReactPixiHostConfig: HostConfig<
   getRootHostContext: () => null,
   getChildHostContext: (parentHostContext) => parentHostContext,
 
-  getPublicInstance: (instance) => instance.instance,
+  getCurrentEventPriority: () => DefaultEventPriority,
 
   // #region Instances
+  getPublicInstance: (instance) => instance.instance,
+
   createInstance: (type, props) => {
     const instance = new ReactPixiInstance(
       props.createInstance,
@@ -89,6 +101,12 @@ const ReactPixiHostConfig: HostConfig<
   unhideInstance: (instance) => {
     instance.setProperty("visible", true);
   },
+
+  beforeActiveInstanceBlur: noop,
+
+  afterActiveInstanceBlur: noop,
+
+  detachDeletedInstance: noop,
   // #endregion
 
   // #region Text Instances

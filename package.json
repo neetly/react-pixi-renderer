@@ -21,8 +21,8 @@
   "dependencies": {
     "@types/react-reconciler": "^0.26.4",
     "@types/scheduler": "^0.16.2",
-    "react-reconciler": "^0.26.2",
-    "scheduler": "^0.20.2"
+    "react-reconciler": "^0.27.0",
+    "scheduler": "^0.21.0"
   },
   "peerDependencies": {
     "@pixi/constants": "*",
@@ -44,8 +44,8 @@
     }
   },
   "devDependencies": {
-    "@buncho/builder": "^4.0.0",
-    "@buncho/eslint-config": "^5.0.0",
+    "@buncho/builder": "^5.0.0",
+    "@buncho/eslint-config": "^5.1.0",
     "@buncho/tsconfig": "^2.0.0",
     "@pixi/constants": "^6.3.0",
     "@pixi/display": "^6.3.0",
@@ -58,8 +58,8 @@
     "@typescript-eslint/parser": "^5.17.0",
     "eslint": "^8.12.0",
     "prettier": "^2.6.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "typescript": "^4.6.3"
   },
   "packageManager": "yarn@3.2.0"

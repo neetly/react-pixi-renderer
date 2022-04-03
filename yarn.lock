@@ -2160,7 +2160,6 @@ __metadata:
     "@pixi/settings": ^6.3.0
     "@pixi/utils": ^6.3.0
     "@types/react": ^17.0.43
-    "@types/react-dom": ^17.0.14
     "@types/react-reconciler": ^0.26.4
     "@types/scheduler": ^0.16.2
     "@typescript-eslint/eslint-plugin": ^5.17.0
@@ -2168,7 +2167,6 @@ __metadata:
     eslint: ^8.12.0
     prettier: ^2.6.2
     react: ^18.0.0
-    react-dom: ^18.0.0
     react-reconciler: ^0.27.0
     scheduler: ^0.21.0
     typescript: ^4.6.3
@@ -2179,13 +2177,9 @@ __metadata:
     "@pixi/settings": "*"
     "@pixi/utils": "*"
     "@types/react": "*"
-    "@types/react-dom": "*"
     react: "*"
-    react-dom: "*"
   peerDependenciesMeta:
     "@types/react":
-      optional: true
-    "@types/react-dom":
       optional: true
   languageName: unknown
   linkType: soft
@@ -4196,15 +4190,6 @@ __metadata:
   version: 1.2.4
   resolution: "@types/range-parser@npm:1.2.4"
   checksum: b7c0dfd5080a989d6c8bb0b6750fc0933d9acabeb476da6fe71d8bdf1ab65e37c136169d84148034802f48378ab94e3c37bb4ef7656b2bec2cb9c0f8d4146a95
-  languageName: node
-  linkType: hard
-
-"@types/react-dom@npm:^17.0.14":
-  version: 17.0.14
-  resolution: "@types/react-dom@npm:17.0.14"
-  dependencies:
-    "@types/react": "*"
-  checksum: b54cd0ef573236b3d87fe7493e6d1c36d8b4ca37a3b46364272a5c91ac178e3296b68ea1aeb299ce68f12ad663c5720ee890d0539b14881c6754bdcbdb0befa0
   languageName: node
   linkType: hard
 
@@ -13579,18 +13564,6 @@ __metadata:
   bin:
     react-docgen: bin/react-docgen.js
   checksum: b0f16789437c75b02ba726c7c94ed902dfcdf66d11f271232c46d270d7eadc7eabbad95587cc70996bbbe5fea1e860afe0dc2659fa22d5773cef1e8deb7fa2ce
-  languageName: node
-  linkType: hard
-
-"react-dom@npm:^18.0.0":
-  version: 18.0.0
-  resolution: "react-dom@npm:18.0.0"
-  dependencies:
-    loose-envify: ^1.1.0
-    scheduler: ^0.21.0
-  peerDependencies:
-    react: ^18.0.0
-  checksum: dd0ba9f2f31dd728076c892a95b2f5a8dfe79136431b0289afb46eec39d0ca6b6f0f40a60fd8aa6ef702c98ce7c26100d3d4dbc35c7c9e87429cd04f84cb58bd
   languageName: node
   linkType: hard
 

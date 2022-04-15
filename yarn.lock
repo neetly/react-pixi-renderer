@@ -2157,7 +2157,7 @@ __metadata:
     "@pixi/settings": ^6.3.0
     "@pixi/utils": ^6.3.0
     "@types/react": ^18.0.5
-    "@types/react-reconciler": ^0.26.5
+    "@types/react-reconciler": ^0.26.6
     "@types/scheduler": ^0.16.2
     "@typescript-eslint/eslint-plugin": ^5.19.0
     "@typescript-eslint/parser": ^5.19.0
@@ -4190,7 +4190,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-reconciler@npm:^0.26.5":
+"@types/react-reconciler@npm:^0.26.6":
   version: 0.26.6
   resolution: "@types/react-reconciler@npm:0.26.6"
   dependencies:

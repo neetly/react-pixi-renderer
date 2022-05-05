@@ -2167,11 +2167,11 @@ __metadata:
     "@buncho/builder": "npm:^5.3.0"
     "@buncho/eslint-config": "npm:^5.1.0"
     "@buncho/tsconfig": "npm:^2.0.0"
-    "@pixi/constants": "npm:^6.3.1"
-    "@pixi/display": "npm:^6.3.1"
-    "@pixi/math": "npm:^6.3.1"
-    "@pixi/settings": "npm:^6.3.1"
-    "@pixi/utils": "npm:^6.3.1"
+    "@pixi/constants": "npm:^6.3.2"
+    "@pixi/display": "npm:^6.3.2"
+    "@pixi/math": "npm:^6.3.2"
+    "@pixi/settings": "npm:^6.3.2"
+    "@pixi/utils": "npm:^6.3.2"
     "@types/react": "npm:^18.0.8"
     "@types/react-reconciler": "npm:^0.26.6"
     "@types/scheduler": "npm:^0.16.2"
@@ -2258,52 +2258,52 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pixi/constants@npm:^6.3.1":
-  version: 6.3.1
-  resolution: "@pixi/constants@npm:6.3.1"
-  checksum: 1dfc64e3b5f9968badabcdd5cd1f288c23edd33c3eee646904dd87c2bb92b59d39665f125ca8b869fbf228a9330c134e2cef83c5672bc71bb757b6c65dae6a25
+"@pixi/constants@npm:^6.3.2":
+  version: 6.3.2
+  resolution: "@pixi/constants@npm:6.3.2"
+  checksum: 08f6750ab86a756850e0f162e42e23e901c20759cd69090fe394292dcc1d9d3c949c524ef82296af8b2d66af413cc3f51e50b0fcf65ee184d35a1d48d26fee53
   languageName: node
   linkType: hard
 
-"@pixi/display@npm:^6.3.1":
-  version: 6.3.1
-  resolution: "@pixi/display@npm:6.3.1"
+"@pixi/display@npm:^6.3.2":
+  version: 6.3.2
+  resolution: "@pixi/display@npm:6.3.2"
   peerDependencies:
-    "@pixi/math": 6.3.1
-    "@pixi/settings": 6.3.1
-    "@pixi/utils": 6.3.1
-  checksum: fc18bd0e8940279d7f733f5204d247b2921d0d60e1047d6213c7c59c6454739870a1b1d197f74656d3d0b5e4bbe5056f9dead954eec1fd562d4fe877f7f46a43
+    "@pixi/math": 6.3.2
+    "@pixi/settings": 6.3.2
+    "@pixi/utils": 6.3.2
+  checksum: 507bda42add8257313f32ed5ca2d6a7cf16570bf34635c8a46a4fe3a9aace0029f590059a41712a05d611cb35ea6adfb4673af984a6245960ee14931ecf32512
   languageName: node
   linkType: hard
 
-"@pixi/math@npm:^6.3.1":
-  version: 6.3.1
-  resolution: "@pixi/math@npm:6.3.1"
-  checksum: 7063de8c1cf7f3d81ad62ffd64db05c018bb307cf98b0c600f64971e48ae0784c9011da3770458ed3dfc86d9fe8084765b88ec26287802ca10f45e964759fc1f
+"@pixi/math@npm:^6.3.2":
+  version: 6.3.2
+  resolution: "@pixi/math@npm:6.3.2"
+  checksum: 798384528def62bbb39c75d6680dd497caaa9964bb4834ee5ca17eab9d9d355edffd0e813a58d90194f11fe9cad6913efa42da9e1d99ec91b502272ea665b513
   languageName: node
   linkType: hard
 
-"@pixi/settings@npm:^6.3.1":
-  version: 6.3.1
-  resolution: "@pixi/settings@npm:6.3.1"
+"@pixi/settings@npm:^6.3.2":
+  version: 6.3.2
+  resolution: "@pixi/settings@npm:6.3.2"
   dependencies:
     ismobilejs: "npm:^1.1.0"
-  checksum: bea14ad168903b1af9c68242b23bf078007c38513f935dc851f041b18e7e1c0ea1e3d202515084183114d96eba97c6446eb998976bacf636743e3620af67e078
+  checksum: b313e297d6d68bd7597508038e648fda89ecf2ca2bea19452d0ff407169ac8f136e497da05e6c0b8cd521506778c111f9d3b69ed6198d94202eaeee905470611
   languageName: node
   linkType: hard
 
-"@pixi/utils@npm:^6.3.1":
-  version: 6.3.1
-  resolution: "@pixi/utils@npm:6.3.1"
+"@pixi/utils@npm:^6.3.2":
+  version: 6.3.2
+  resolution: "@pixi/utils@npm:6.3.2"
   dependencies:
     "@types/earcut": "npm:^2.1.0"
     earcut: "npm:^2.2.2"
     eventemitter3: "npm:^3.1.0"
     url: "npm:^0.11.0"
   peerDependencies:
-    "@pixi/constants": 6.3.1
-    "@pixi/settings": 6.3.1
-  checksum: 74396d76bd40a3e76f937e0ab295ba907fdf6ef288f1c954c6a51c934da371fab67c51e883b3d03f0b44db17a1f4a1188eabc96fadc3edda79b9fc14aac66385
+    "@pixi/constants": 6.3.2
+    "@pixi/settings": 6.3.2
+  checksum: 20ab10838e4a2065f21f48e73e174a7d0017913a2c2f661fa215693f1aaa2f47e466ef818ec61e70644cc31d96b3cdc4ffbed511f8f81121911dd659ab0337a6
   languageName: node
   linkType: hard
 

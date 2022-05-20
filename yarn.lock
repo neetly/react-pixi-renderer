@@ -2173,7 +2173,7 @@ __metadata:
     "@pixi/settings": "npm:^6.3.2"
     "@pixi/utils": "npm:^6.3.2"
     "@types/react": "npm:^18.0.9"
-    "@types/react-reconciler": "npm:^0.26.6"
+    "@types/react-reconciler": "npm:^0.26.7"
     "@types/scheduler": "npm:^0.16.2"
     "@typescript-eslint/eslint-plugin": "npm:^5.25.0"
     "@typescript-eslint/parser": "npm:^5.25.0"
@@ -4199,12 +4199,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-reconciler@npm:^0.26.6":
-  version: 0.26.6
-  resolution: "@types/react-reconciler@npm:0.26.6"
+"@types/react-reconciler@npm:^0.26.7":
+  version: 0.26.7
+  resolution: "@types/react-reconciler@npm:0.26.7"
   dependencies:
     "@types/react": "npm:*"
-  checksum: 8f8e3de2aee3af74d1a3a27964480ed35039ed3325c0d5a04d346b4e8d08e4dc62ce341fb38735b11c0c66530150f4cdb6edb69e5afb3f485dcabd2fa1105447
+  checksum: 59ce0c7fa846041b3cb69b94e291dc6b66eace08a5f229c84902a481bc7e17293a441b0982fb993a51e6cdff44594927aaf2898dba17f05fdfe232d0f0ad2686
   languageName: node
   linkType: hard
 

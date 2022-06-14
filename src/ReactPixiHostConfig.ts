@@ -1,7 +1,6 @@
 import type { DisplayObject as PixiDisplayObject } from "@pixi/display";
-import type { HostConfig, OpaqueHandle } from "react-reconciler";
+import type { HostConfig } from "react-reconciler";
 import { DefaultEventPriority } from "react-reconciler/constants";
-import { unstable_now as now } from "scheduler";
 
 import type { PrimitiveProps } from "./components/Primitive";
 import { invariant } from "./invariant";

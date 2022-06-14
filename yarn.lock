@@ -2026,14 +2026,12 @@ __metadata:
     "@pixi/utils": "npm:^6.4.2"
     "@types/react": "npm:^18.0.12"
     "@types/react-reconciler": "npm:^0.28.0"
-    "@types/scheduler": "npm:^0.16.2"
     "@typescript-eslint/eslint-plugin": "npm:^5.28.0"
     "@typescript-eslint/parser": "npm:^5.28.0"
     eslint: "npm:^8.17.0"
     prettier: "npm:^2.7.0"
     react: "npm:^18.1.0"
     react-reconciler: "npm:^0.28.0"
-    scheduler: "npm:^0.22.0"
     typescript: "npm:^4.7.3"
   peerDependencies:
     "@pixi/constants": "*"
@@ -4028,7 +4026,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/scheduler@npm:*, @types/scheduler@npm:^0.16.2":
+"@types/scheduler@npm:*":
   version: 0.16.2
   resolution: "@types/scheduler@npm:0.16.2"
   checksum: 223d9b12d1eff3fe857e7eb967d640707c2a76ba1126633bae88dce7693301ea8edcce83586a17134a1822f01265f715809860085547b01db8de6a90f5165706

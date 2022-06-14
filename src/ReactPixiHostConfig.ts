@@ -23,26 +23,13 @@ const ReactPixiHostConfig: HostConfig<
   /* ChildSet */ never,
   /* TimeoutHandle */ number,
   /* NoTimeout */ number
-> & {
-  warnsIfNotActing?: boolean;
-
-  supportsMicrotask?: boolean;
-  scheduleMicrotask?: (fn: () => void) => void;
-
-  getCurrentEventPriority?: () => number;
-
-  beforeActiveInstanceBlur?: (internalHandle: OpaqueHandle) => void;
-  afterActiveInstanceBlur?: () => void;
-  detachDeletedInstance?: () => void;
-} = {
+> = {
   isPrimaryRenderer: false,
   warnsIfNotActing: true,
 
   supportsMutation: true,
   supportsPersistence: false,
   supportsHydration: false,
-
-  now,
 
   scheduleTimeout: (fn, delay) => window.setTimeout(fn, delay),
   cancelTimeout: (id) => window.clearTimeout(id),
@@ -53,6 +40,17 @@ const ReactPixiHostConfig: HostConfig<
 
   getRootHostContext: () => null,
   getChildHostContext: (parentHostContext) => parentHostContext,
+
+  getInstanceFromNode: () => {
+    invariant(false);
+  },
+
+  prepareScopeUpdate: () => {
+    invariant(false);
+  },
+  getInstanceFromScope: () => {
+    invariant(false);
+  },
 
   getCurrentEventPriority: () => DefaultEventPriority,
 

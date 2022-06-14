@@ -19,7 +19,7 @@
     "prepack": "run clean && run build"
   },
   "dependencies": {
-    "@types/react-reconciler": "^0.26.7",
+    "@types/react-reconciler": "^0.28.0",
     "@types/scheduler": "^0.16.2",
     "react-reconciler": "^0.28.0",
     "scheduler": "^0.22.0"

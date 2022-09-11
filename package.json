@@ -45,7 +45,7 @@
     "@pixi/math": "^6.5.2",
     "@pixi/settings": "^6.5.2",
     "@pixi/utils": "^6.5.2",
-    "@types/react": "^18.0.18",
+    "@types/react": "^18.0.19",
     "@typescript-eslint/eslint-plugin": "^5.36.2",
     "@typescript-eslint/parser": "^5.36.2",
     "eslint": "^8.23.0",

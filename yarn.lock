@@ -2024,11 +2024,11 @@ __metadata:
     "@buncho/builder": "npm:^5.5.0"
     "@buncho/eslint-config": "npm:^6.0.0"
     "@buncho/tsconfig": "npm:^2.0.0"
-    "@pixi/constants": "npm:^6.5.8"
-    "@pixi/display": "npm:^6.5.8"
-    "@pixi/math": "npm:^6.5.8"
-    "@pixi/settings": "npm:^6.5.8"
-    "@pixi/utils": "npm:^6.5.8"
+    "@pixi/constants": "npm:^7.0.4"
+    "@pixi/display": "npm:^7.0.4"
+    "@pixi/math": "npm:^7.0.4"
+    "@pixi/settings": "npm:^7.0.4"
+    "@pixi/utils": "npm:^7.0.4"
     "@types/react": "npm:^18.0.26"
     "@types/react-reconciler": "npm:^0.28.0"
     "@typescript-eslint/eslint-plugin": "npm:^5.45.0"
@@ -2113,53 +2113,48 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pixi/constants@npm:^6.5.8":
-  version: 6.5.8
-  resolution: "@pixi/constants@npm:6.5.8"
-  checksum: a1e697231f7f81aa04e5b2c20be7cb7ef5c617da2e9959da26634bf9e34eda63dc62d6e5ac28736e755587bb7dd3c5b2750afe303003a7dc10744752d9284a1b
+"@pixi/constants@npm:7.0.4, @pixi/constants@npm:^7.0.4":
+  version: 7.0.4
+  resolution: "@pixi/constants@npm:7.0.4"
+  checksum: bbbe8a85cfd43249da91bd8a82f63b1b908cce057185c554a5c14ff234ccae9c719b4affb25ae180d9a46cdf4849fafe376e2575038bac92bd3e484867b4cc19
   languageName: node
   linkType: hard
 
-"@pixi/display@npm:^6.5.8":
-  version: 6.5.8
-  resolution: "@pixi/display@npm:6.5.8"
-  peerDependencies:
-    "@pixi/constants": 6.5.8
-    "@pixi/math": 6.5.8
-    "@pixi/settings": 6.5.8
-    "@pixi/utils": 6.5.8
-  checksum: 6e6bedaa99d2f77009f37b30fca392b0f033d17140972ded49511847b4a814f22fb52aa9490314e09409d7da592f6c25d0986d4a19f39db781bc5de86f9c1f1b
+"@pixi/display@npm:^7.0.4":
+  version: 7.0.4
+  resolution: "@pixi/display@npm:7.0.4"
+  checksum: babec4b36c652e8dbbb2337f42b03d9d5473d6872b9f534339d58e530c22a2c680859d0265ce4a093fbff53954a06051b4dfbe8b95a00ba5ff9dd50f8ddba305
   languageName: node
   linkType: hard
 
-"@pixi/math@npm:^6.5.8":
-  version: 6.5.8
-  resolution: "@pixi/math@npm:6.5.8"
-  checksum: 77da75ed378d8a9b2028d24b4e4b1886e7319cbe8dbff18968f9bddaf94e4ded03af0b05f1d0ce823acdf9ad9964f312dd56cb4ed1b0b79d6fac3b10394c453f
+"@pixi/math@npm:^7.0.4":
+  version: 7.0.4
+  resolution: "@pixi/math@npm:7.0.4"
+  checksum: f1bedda599ee8736e33a13abd17410203f31bd3bc84aa96c3b99f04c947e855162d17af03272c2864d92ffbd0bc397d590b3e6332e7825729e998aa26af4836b
   languageName: node
   linkType: hard
 
-"@pixi/settings@npm:^6.5.8":
-  version: 6.5.8
-  resolution: "@pixi/settings@npm:6.5.8"
-  peerDependencies:
-    "@pixi/constants": 6.5.8
-  checksum: 8d60349a43a3a0eba7ede747b9ace04f64fc0ae2e8a42f468de35d696dcc73306821472cd3a218954c46b8dc829e9d4d200c1c1552475c214ecc16e5fd3ab985
-  languageName: node
-  linkType: hard
-
-"@pixi/utils@npm:^6.5.8":
-  version: 6.5.8
-  resolution: "@pixi/utils@npm:6.5.8"
+"@pixi/settings@npm:7.0.4, @pixi/settings@npm:^7.0.4":
+  version: 7.0.4
+  resolution: "@pixi/settings@npm:7.0.4"
   dependencies:
+    "@pixi/constants": "npm:7.0.4"
+    "@types/css-font-loading-module": "npm:^0.0.7"
+  checksum: b2e288ef83eeedb537abeb7566c49d7fd3f93e2734ac914fb77f8e1c6c8a2e6862caaa8027bca033efef248aee8757ccc39ef520914c357d721ea33d7d301591
+  languageName: node
+  linkType: hard
+
+"@pixi/utils@npm:^7.0.4":
+  version: 7.0.4
+  resolution: "@pixi/utils@npm:7.0.4"
+  dependencies:
+    "@pixi/constants": "npm:7.0.4"
+    "@pixi/settings": "npm:7.0.4"
     "@types/earcut": "npm:^2.1.0"
     earcut: "npm:^2.2.4"
-    eventemitter3: "npm:^3.1.0"
+    eventemitter3: "npm:^4.0.0"
     url: "npm:^0.11.0"
-  peerDependencies:
-    "@pixi/constants": 6.5.8
-    "@pixi/settings": 6.5.8
-  checksum: 4e2e9b3b1fa5e7575a2aa8c414c154ed32368a997cb19faa29e6f06728cb2d7fcbd5672524ad6b85e97d4e9d48f779fe8ebdf7a526d5d408b5f0db4587308254
+  checksum: b82695f890ab1d1efe642a469211a5ff9cd6bae62caa4858dffdc1e88209b1cc919a09ca806246fc67cf7f445db9a737c9de77553f98caab6bb0bb3eaa3d2a9d
   languageName: node
   linkType: hard
 
@@ -3719,6 +3714,13 @@ __metadata:
   dependencies:
     "@types/node": "npm:*"
   checksum: 1fffce36ab2abf23023d8bb0f5c35c481cb97d116e6a1b206668be9dd57ffa9ae705256d232461fe05c6007c03a0fb7f1600256643ccc08b62d6f67214b1bb75
+  languageName: node
+  linkType: hard
+
+"@types/css-font-loading-module@npm:^0.0.7":
+  version: 0.0.7
+  resolution: "@types/css-font-loading-module@npm:0.0.7"
+  checksum: e75a148622884c96508e95df662ee25c38ac3d4c2d4173005d5dbc1954eaf8d3cab84bdf8f2bb42ba963bdf55d04dfe1925df94219ff2649017445221d16df64
   languageName: node
   linkType: hard
 
@@ -7950,13 +7952,6 @@ __metadata:
   version: 1.8.1
   resolution: "etag@npm:1.8.1"
   checksum: 70d88dfb36416dffbb09859cb5c72a71ae9a0b3da550643a75d28d3a853c999fb30076bc33d2a1c3882988e3631093b148bacaee133e070de4798e63753b82ac
-  languageName: node
-  linkType: hard
-
-"eventemitter3@npm:^3.1.0":
-  version: 3.1.2
-  resolution: "eventemitter3@npm:3.1.2"
-  checksum: de0ec98f01dc30b64392cc9ba0c7a7d3a135fb72887955972adc82eba4e6de0587f20a1881ca9dcb9eeffb60a9210d68c2982e560f4f8a6ccb2600bb08a4488b
   languageName: node
   linkType: hard
 

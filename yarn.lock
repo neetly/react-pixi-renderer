@@ -2026,7 +2026,7 @@ __metadata:
     "@buncho/tsconfig": "npm:^2.0.0"
     "@pixi/constants": "npm:^6.5.8"
     "@pixi/display": "npm:^6.5.8"
-    "@pixi/math": "npm:^6.5.8"
+    "@pixi/math": "npm:^7.0.5"
     "@pixi/settings": "npm:^6.5.8"
     "@pixi/utils": "npm:^6.5.8"
     "@types/react": "npm:^18.0.26"
@@ -2132,10 +2132,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pixi/math@npm:^6.5.8":
-  version: 6.5.8
-  resolution: "@pixi/math@npm:6.5.8"
-  checksum: 77da75ed378d8a9b2028d24b4e4b1886e7319cbe8dbff18968f9bddaf94e4ded03af0b05f1d0ce823acdf9ad9964f312dd56cb4ed1b0b79d6fac3b10394c453f
+"@pixi/math@npm:^7.0.5":
+  version: 7.0.5
+  resolution: "@pixi/math@npm:7.0.5"
+  checksum: db56dea36a25367576f532f062938d8172e6d8f6e410333b92965dc2d16989e66f335ade3d2d1d91207433937cc749f42c1a52571c6f76013f47b82fe0aa94e1
   languageName: node
   linkType: hard
 

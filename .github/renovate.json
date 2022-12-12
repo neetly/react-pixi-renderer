@@ -1,3 +1,9 @@
 {
-  "extends": ["github>neetly/renovate-config"]
+  "extends": ["github>neetly/renovate-config"],
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["^@pixi/"],
+      "enabled": false
+    }
+  ]
 }

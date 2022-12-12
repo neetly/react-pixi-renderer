@@ -43,7 +43,7 @@
     "@pixi/constants": "^6.5.8",
     "@pixi/display": "^6.5.8",
     "@pixi/math": "^6.5.8",
-    "@pixi/settings": "^6.5.8",
+    "@pixi/settings": "^7.0.5",
     "@pixi/utils": "^6.5.8",
     "@types/react": "^18.0.26",
     "@typescript-eslint/eslint-plugin": "^5.46.0",

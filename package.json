@@ -40,7 +40,7 @@
     "@buncho/builder": "^5.5.0",
     "@buncho/eslint-config": "^6.0.0",
     "@buncho/tsconfig": "^2.0.0",
-    "@pixi/constants": "^6.5.8",
+    "@pixi/constants": "^7.0.5",
     "@pixi/display": "^6.5.8",
     "@pixi/math": "^6.5.8",
     "@pixi/settings": "^6.5.8",

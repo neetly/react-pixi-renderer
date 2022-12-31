@@ -12,11 +12,11 @@
     "./lib"
   ],
   "scripts": {
-    "build": "lib build",
-    "clean": "lib clean",
+    "build": "buncho library build",
+    "clean": "buncho library clean",
+    "prepack": "run clean && run build",
     "lint": "eslint --max-warnings 0 . && prettier --check .",
-    "lint:fix": "eslint --max-warnings 0 --fix . && prettier --write .",
-    "prepack": "run clean && run build"
+    "lint:fix": "eslint --max-warnings 0 --fix . && prettier --write ."
   },
   "dependencies": {
     "@types/react-reconciler": "^0.28.1",
@@ -37,17 +37,15 @@
     }
   },
   "devDependencies": {
-    "@buncho/builder": "^5.5.0",
-    "@buncho/eslint-config": "^6.0.0",
-    "@buncho/tsconfig": "^2.0.0",
+    "@neetly/eslint-config": "^0.4.0",
+    "@neetly/tsconfig": "^0.2.0",
     "@pixi/constants": "^6.5.8",
     "@pixi/display": "^6.5.8",
     "@pixi/math": "^6.5.8",
     "@pixi/settings": "^6.5.8",
     "@pixi/utils": "^6.5.8",
     "@types/react": "^18.0.26",
-    "@typescript-eslint/eslint-plugin": "^5.47.1",
-    "@typescript-eslint/parser": "^5.47.1",
+    "buncho": "^6.0.4",
     "eslint": "^8.31.0",
     "prettier": "^2.8.1",
     "react": "^18.2.0",

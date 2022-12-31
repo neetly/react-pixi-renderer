@@ -1,17 +1,10 @@
-# npm
-
-/node_modules/
-
 # Yarn
 
-/.yarn/*
-!/.yarn/releases/
-!/.yarn/plugins/
-
+**/node_modules/
+/.yarn/
 /.pnp.*
 
 # Artifacts
 
-/package.tgz
-/tsconfig.tsbuildinfo
+**/*.tsbuildinfo
 /lib/

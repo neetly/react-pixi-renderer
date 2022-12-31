@@ -1,4 +1,4 @@
-import type { IPointData as PixiPointData } from "@pixi/math";
+import type { IPointData as PixiPointData } from "@pixi/core";
 
 const isPointData = (value: unknown): value is PixiPointData => {
   return Boolean(

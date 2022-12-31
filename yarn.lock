@@ -1649,8 +1649,8 @@ __metadata:
   dependencies:
     "@neetly/eslint-config": "npm:^0.4.0"
     "@neetly/tsconfig": "npm:^0.2.0"
+    "@pixi/core": "npm:^7.0.5"
     "@pixi/display": "npm:^7.0.5"
-    "@pixi/math": "npm:^7.0.5"
     "@types/react": "npm:^18.0.26"
     "@types/react-reconciler": "npm:^0.28.1"
     buncho: "npm:^6.0.4"
@@ -1660,8 +1660,8 @@ __metadata:
     react-reconciler: "npm:^0.29.0"
     typescript: "npm:^4.9.4"
   peerDependencies:
+    "@pixi/core": "*"
     "@pixi/display": "*"
-    "@pixi/math": "*"
     "@types/react": "*"
     react: "*"
   peerDependenciesMeta:
@@ -1733,6 +1733,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@pixi/constants@npm:7.0.5":
+  version: 7.0.5
+  resolution: "@pixi/constants@npm:7.0.5"
+  checksum: 8afe994ef6b818b9a9ef81fd5f9dac5da02c01023f9457167978daa5cac3dc504a67538fe3c2d39426d92aca5294fb85042bfbdcece6566e3969123488892931
+  languageName: node
+  linkType: hard
+
+"@pixi/core@npm:^7.0.5":
+  version: 7.0.5
+  resolution: "@pixi/core@npm:7.0.5"
+  dependencies:
+    "@pixi/constants": "npm:7.0.5"
+    "@pixi/extensions": "npm:7.0.5"
+    "@pixi/math": "npm:7.0.5"
+    "@pixi/runner": "npm:7.0.5"
+    "@pixi/settings": "npm:7.0.5"
+    "@pixi/ticker": "npm:7.0.5"
+    "@pixi/utils": "npm:7.0.5"
+    "@types/offscreencanvas": "npm:^2019.6.4"
+  checksum: 75a24adf7b54112c7ff655fc395ad23880c0285011e26d1986718b4fd8c68007692204d5ab2fcefa5800eb879f02d02829306965955b1cf8e6c981404b6b5c00
+  languageName: node
+  linkType: hard
+
 "@pixi/display@npm:^7.0.5":
   version: 7.0.5
   resolution: "@pixi/display@npm:7.0.5"
@@ -1740,10 +1763,58 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pixi/math@npm:^7.0.5":
+"@pixi/extensions@npm:7.0.5":
+  version: 7.0.5
+  resolution: "@pixi/extensions@npm:7.0.5"
+  checksum: 171f52413198a6cd2c2806b03c89dcf6a988e26a8ef3413b951cebde158815a778e3917cd9c522e7e9e10b140dd930bb3fdc62dc2626b86d22c4824a11681439
+  languageName: node
+  linkType: hard
+
+"@pixi/math@npm:7.0.5":
   version: 7.0.5
   resolution: "@pixi/math@npm:7.0.5"
   checksum: db56dea36a25367576f532f062938d8172e6d8f6e410333b92965dc2d16989e66f335ade3d2d1d91207433937cc749f42c1a52571c6f76013f47b82fe0aa94e1
+  languageName: node
+  linkType: hard
+
+"@pixi/runner@npm:7.0.5":
+  version: 7.0.5
+  resolution: "@pixi/runner@npm:7.0.5"
+  checksum: 92e0dc0cb0943e6063e4ef10ef15820f6a037bbb2e26168155b6b9be2fd8f5fbce91b35b557f11d7d188fb1d2fa48787aff134381f2dd48825855a6bbbfcb334
+  languageName: node
+  linkType: hard
+
+"@pixi/settings@npm:7.0.5":
+  version: 7.0.5
+  resolution: "@pixi/settings@npm:7.0.5"
+  dependencies:
+    "@pixi/constants": "npm:7.0.5"
+    "@types/css-font-loading-module": "npm:^0.0.7"
+  checksum: ca7ca75bbb2d470eec91b42c2752ec4fa74b05b382ab7a24d6d886c9e7ca4a936728e0c32656c9c75039f3eed645b01b0565d1c061925f41029bba984a7ca640
+  languageName: node
+  linkType: hard
+
+"@pixi/ticker@npm:7.0.5":
+  version: 7.0.5
+  resolution: "@pixi/ticker@npm:7.0.5"
+  dependencies:
+    "@pixi/extensions": "npm:7.0.5"
+    "@pixi/settings": "npm:7.0.5"
+  checksum: 941f52aa7d1949852859dc672a9361197887eef2e520d5059d5d46511bec9eee0c3d1305e8bffb91450ba93414fee63b2388296b5675d20c193c923384481e54
+  languageName: node
+  linkType: hard
+
+"@pixi/utils@npm:7.0.5":
+  version: 7.0.5
+  resolution: "@pixi/utils@npm:7.0.5"
+  dependencies:
+    "@pixi/constants": "npm:7.0.5"
+    "@pixi/settings": "npm:7.0.5"
+    "@types/earcut": "npm:^2.1.0"
+    earcut: "npm:^2.2.4"
+    eventemitter3: "npm:^4.0.0"
+    url: "npm:^0.11.0"
+  checksum: 29b2ff4017f95bc668486dee2fd974bfa5247a3163219910b3ee5083d34b12ee130d93460b64aef70182d2045abcc686ceb4457cd372dbef9d593e0877311e8d
   languageName: node
   linkType: hard
 
@@ -1863,6 +1934,20 @@ __metadata:
   dependencies:
     "@types/node": "npm:*"
   checksum: 1fffce36ab2abf23023d8bb0f5c35c481cb97d116e6a1b206668be9dd57ffa9ae705256d232461fe05c6007c03a0fb7f1600256643ccc08b62d6f67214b1bb75
+  languageName: node
+  linkType: hard
+
+"@types/css-font-loading-module@npm:^0.0.7":
+  version: 0.0.7
+  resolution: "@types/css-font-loading-module@npm:0.0.7"
+  checksum: e75a148622884c96508e95df662ee25c38ac3d4c2d4173005d5dbc1954eaf8d3cab84bdf8f2bb42ba963bdf55d04dfe1925df94219ff2649017445221d16df64
+  languageName: node
+  linkType: hard
+
+"@types/earcut@npm:^2.1.0":
+  version: 2.1.1
+  resolution: "@types/earcut@npm:2.1.1"
+  checksum: 8361988a7a1e5bfb441c965c8c36e04a408363f6ac9e03cdc9ed10b5bee8ec8ac80a338f376942d0f3ebe2a7ddd4991b7223d4f8d654ff3a7c51c6daf054d47c
   languageName: node
   linkType: hard
 
@@ -2003,6 +2088,13 @@ __metadata:
   version: 2.4.1
   resolution: "@types/normalize-package-data@npm:2.4.1"
   checksum: 4b597289520e45e54f408e91712f31fe7818e2c5d977eefecfae9db1f921a80247470d4f77da2dc8e1ef85bf0b5852ad64faf0106d88647421e45350d124f74f
+  languageName: node
+  linkType: hard
+
+"@types/offscreencanvas@npm:^2019.6.4":
+  version: 2019.7.0
+  resolution: "@types/offscreencanvas@npm:2019.7.0"
+  checksum: 3207d1e610c9e0a6e8ea9a15b908ad25c41386f5132d4f36e5d04f24e2c27534067494dc654a70c352287b29091763a3ff871f140646773bb139cd7d72a936a2
   languageName: node
   linkType: hard
 
@@ -3818,6 +3910,13 @@ __metadata:
   version: 16.0.3
   resolution: "dotenv@npm:16.0.3"
   checksum: abce82d99b45e2ebbd42625a78cadbfafe03072c15e6538b6a3a7ed204b6e091c0de929dd09231edc61f78afbdcd5b8a2f21b9e933e8ab27d75bee865a0e58c9
+  languageName: node
+  linkType: hard
+
+"earcut@npm:^2.2.4":
+  version: 2.2.4
+  resolution: "earcut@npm:2.2.4"
+  checksum: d848449e473afa1da62dc620cffb2f9437b9156764dde6c93419cc545396d9513303a159b507be0b65a3dd64e5c98fb8281c4e4631b76fa4a51a92de1826b0db
   languageName: node
   linkType: hard
 
@@ -7062,6 +7161,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"punycode@npm:1.3.2":
+  version: 1.3.2
+  resolution: "punycode@npm:1.3.2"
+  checksum: 55b7339478c7e0debfd563c404beb7c9af30f24e191bd728688523cf1dd901977acdb8bd9c6e1005d3d2fc0f40c7f907006735b139ad1cf595c16e071a1fd65a
+  languageName: node
+  linkType: hard
+
 "punycode@npm:^2.1.0":
   version: 2.1.1
   resolution: "punycode@npm:2.1.1"
@@ -7075,6 +7181,13 @@ __metadata:
   dependencies:
     side-channel: "npm:^1.0.4"
   checksum: 337966e2e957a7d2a69821c528f3d18a8b346ddb0f16cc08d11c6206aed3b6624927781ff437aa3909e54ad32ebdee2c5396ad4094b1c722760774f7082f6124
+  languageName: node
+  linkType: hard
+
+"querystring@npm:0.2.0":
+  version: 0.2.0
+  resolution: "querystring@npm:0.2.0"
+  checksum: 5804c20d7ebf914b26b9fe3c9a4b4b3104d7ee803106ac7bd35b9edffdcd844ca3d4aceaf5e0b39654b6939ceeadebafb3a3975346cf98f7accea19aa97f04fa
   languageName: node
   linkType: hard
 
@@ -8417,6 +8530,16 @@ __metadata:
   dependencies:
     punycode: "npm:^2.1.0"
   checksum: 284fedd1b11512a77e783bfd32b320a9af1f2e39fbfabf4d65d64122344a3f55b8d37ec0c77e0045f7467b99d24bd2c067c1224d74f5c76b069753c7276d8709
+  languageName: node
+  linkType: hard
+
+"url@npm:^0.11.0":
+  version: 0.11.0
+  resolution: "url@npm:0.11.0"
+  dependencies:
+    punycode: "npm:1.3.2"
+    querystring: "npm:0.2.0"
+  checksum: faa2280706858e1223e032eee89a43c832fe95803d9917f5b48a82a92fb8eec5556811fc6acb6d7c90ced0adb36d59331a55df86a27320c21bddd24f24600d3b
   languageName: node
   linkType: hard
 

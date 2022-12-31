@@ -1,4 +1,7 @@
-import type { DisplayObject as PixiDisplayObject } from "@pixi/display";
+import type {
+  DisplayObject as PixiDisplayObject,
+  DisplayObjectEvents as PixiDisplayObjectEvents,
+} from "@pixi/display";
 import { Container as PixiContainer } from "@pixi/display";
 
 import { invariant } from "./invariant";
@@ -91,11 +94,11 @@ class ReactPixiInstance {
   }
 
   private getEventFromProperty(key: `on${string}`) {
-    return key.slice(2).toLowerCase();
+    return key.slice(2).toLowerCase() as keyof PixiDisplayObjectEvents;
   }
 
   private setInstanceEventListener(
-    event: string,
+    event: keyof PixiDisplayObjectEvents,
     listener: EventListener | undefined,
   ) {
     const currentListener = this.eventListeners.get(event);

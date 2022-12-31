@@ -23,8 +23,8 @@
     "react-reconciler": "^0.29.0"
   },
   "peerDependencies": {
+    "@pixi/core": "*",
     "@pixi/display": "*",
-    "@pixi/math": "*",
     "@types/react": "*",
     "react": "*"
   },
@@ -36,8 +36,8 @@
   "devDependencies": {
     "@neetly/eslint-config": "^0.4.0",
     "@neetly/tsconfig": "^0.2.0",
+    "@pixi/core": "^7.0.5",
     "@pixi/display": "^7.0.5",
-    "@pixi/math": "^7.0.5",
     "@types/react": "^18.0.26",
     "buncho": "^6.0.4",
     "eslint": "^8.31.0",

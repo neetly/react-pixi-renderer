@@ -1650,7 +1650,7 @@ __metadata:
     "@neetly/eslint-config": "npm:^0.4.0"
     "@neetly/tsconfig": "npm:^0.2.0"
     "@pixi/core": "npm:^7.0.5"
-    "@pixi/display": "npm:^7.0.5"
+    "@pixi/display": "npm:^7.1.0"
     "@types/react": "npm:^18.0.26"
     "@types/react-reconciler": "npm:^0.28.1"
     buncho: "npm:^6.0.4"
@@ -1756,10 +1756,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pixi/display@npm:^7.0.5":
-  version: 7.0.5
-  resolution: "@pixi/display@npm:7.0.5"
-  checksum: 695e39a1b5ab0aa73a439c426db48ee8349ef39ad9b928d38c2850cc1c7e0bec66c77a73adef3459929bb65a5f285b0566c482f678c8f6239c91fe4c15b882f4
+"@pixi/display@npm:^7.1.0":
+  version: 7.1.0
+  resolution: "@pixi/display@npm:7.1.0"
+  checksum: 3eb686b52b34d282057bedc851162be847ecbfa456034952b0152d407d97f2f73846841755fb5258896fafd947240c2be0ac7a3c257f249b534b01b45c07c02f
   languageName: node
   linkType: hard
 

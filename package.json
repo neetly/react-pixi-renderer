@@ -40,7 +40,7 @@
     "@pixi/display": "^7.1.2",
     "@types/react": "^18.0.27",
     "buncho": "^6.0.5",
-    "eslint": "^8.33.0",
+    "eslint": "^8.34.0",
     "prettier": "^2.8.4",
     "react": "^18.2.0",
     "typescript": "^4.9.5"

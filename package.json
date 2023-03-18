@@ -35,7 +35,7 @@
   },
   "devDependencies": {
     "@neetly/eslint-config": "^0.4.0",
-    "@neetly/tsconfig": "^0.2.0",
+    "@neetly/tsconfig": "^0.3.0",
     "@pixi/core": "^7.1.4",
     "@pixi/display": "^7.1.4",
     "@types/react": "^18.0.28",

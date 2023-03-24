@@ -38,7 +38,7 @@
     "@neetly/tsconfig": "^0.3.0",
     "@pixi/core": "^7.1.4",
     "@pixi/display": "^7.1.4",
-    "@types/react": "^18.0.28",
+    "@types/react": "^18.0.29",
     "buncho": "^6.0.5",
     "eslint": "^8.36.0",
     "prettier": "^2.8.6",

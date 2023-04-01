@@ -39,7 +39,7 @@
     "@pixi/core": "^7.2.3",
     "@pixi/display": "^7.2.3",
     "@types/react": "^18.0.31",
-    "buncho": "^6.0.5",
+    "buncho": "^6.1.0",
     "eslint": "^8.37.0",
     "prettier": "^2.8.7",
     "react": "^18.2.0",

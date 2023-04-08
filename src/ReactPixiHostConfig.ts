@@ -34,7 +34,7 @@ const ReactPixiHostConfig: HostConfig<
   cancelTimeout: (id) => window.clearTimeout(id),
   noTimeout: -1,
 
-  supportsMicrotask: true,
+  supportsMicrotasks: true,
   scheduleMicrotask: (fn) => window.queueMicrotask(fn),
 
   getRootHostContext: () => null,

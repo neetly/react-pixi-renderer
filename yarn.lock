@@ -1688,7 +1688,7 @@ __metadata:
     "@pixi/core": "npm:^7.2.4"
     "@pixi/display": "npm:^7.2.4"
     "@types/react": "npm:^18.0.33"
-    "@types/react-reconciler": "npm:^0.28.1"
+    "@types/react-reconciler": "npm:^0.28.2"
     buncho: "npm:^6.1.0"
     eslint: "npm:^8.38.0"
     prettier: "npm:^2.8.7"
@@ -2170,12 +2170,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-reconciler@npm:^0.28.1":
-  version: 0.28.1
-  resolution: "@types/react-reconciler@npm:0.28.1"
+"@types/react-reconciler@npm:^0.28.2":
+  version: 0.28.2
+  resolution: "@types/react-reconciler@npm:0.28.2"
   dependencies:
     "@types/react": "npm:*"
-  checksum: 39634a9cacc9a88e689db7c798ecabf6d05e3a10bddc1b6537e51d1d01fc4bacfcdb4e0a885b54e284bedd97ffdb5abace488e1082f4b69b7b73522993839252
+  checksum: 656ae566414ebee8ec189087194d334b0737dbfdea666372b7180743d41ffc2dc51bcc9473aad50c7d4e23c9b32514aa70ffb734555b398a72d4319810d1a9e5
   languageName: node
   linkType: hard
 

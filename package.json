@@ -19,7 +19,7 @@
     "lint:fix": "eslint --max-warnings 0 --fix . && prettier --write ."
   },
   "dependencies": {
-    "@types/react-reconciler": "^0.28.1",
+    "@types/react-reconciler": "^0.28.2",
     "react-reconciler": "^0.29.0"
   },
   "peerDependencies": {
